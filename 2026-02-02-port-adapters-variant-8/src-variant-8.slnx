@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="PortAdapterDemystified.Adapters.Data/PortAdapterDemystified.Adapters.Data.csproj" />
+  <Project Path="PortAdapterDemystified.Adapters.Web/PortAdapterDemystified.Adapters.Web.csproj" />
+  <Project Path="PortAdapterDemystified.Application/PortAdapterDemystified.Application.csproj" />
+  <Project Path="PortAdapterDemystified.Domain/PortAdapterDemystified.Domain.csproj" />
+  <Project Path="PortAdapterDemystified.Tests.Unit/PortAdapterDemystified.Tests.Unit.csproj" />
+  <Project Path="PortAdapterDemystified.Tests.Integration/PortAdapterDemystified.Tests.Integration.csproj" />
+  <Project Path="PortAdapterDemystified.Tests.System/PortAdapterDemystified.Tests.System.csproj" />
+</Solution>

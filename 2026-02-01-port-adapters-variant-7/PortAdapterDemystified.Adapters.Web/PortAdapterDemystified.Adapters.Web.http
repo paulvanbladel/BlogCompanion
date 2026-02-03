@@ -1,0 +1,12 @@
+@host = http://localhost:5245
+
+POST {{host}}/calculation
+Content-Type: application/json
+
+{
+  "age": 30,
+  "insuranceType": "car",
+  "amount": 1000
+}
+
+###

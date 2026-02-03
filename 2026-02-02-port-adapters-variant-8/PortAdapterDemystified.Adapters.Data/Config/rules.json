@@ -1,0 +1,8 @@
+{
+  "BasePremium": 100.0,
+  "Rules": [
+    { "Condition": "age > 50", "SurchargeRate": 0.2 },
+    { "Condition": "age < 25", "SurchargeRate": 0.5 },
+    { "Condition": "isSmoker == true", "SurchargeRate": 0.1 }
+  ]
+}

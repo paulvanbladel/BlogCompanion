@@ -1,0 +1,6 @@
+@host = http://localhost:5245
+
+GET {{host}}/calculate/23/true
+Content-Type: application/json
+
+###

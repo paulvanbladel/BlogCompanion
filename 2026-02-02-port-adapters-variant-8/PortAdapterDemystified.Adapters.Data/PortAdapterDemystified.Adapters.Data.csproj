@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortAdapterDemystified.Domain\PortAdapterDemystified.Domain.csproj" />
+    <ProjectReference Include="..\PortAdapterDemystified.Application\PortAdapterDemystified.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Config\rules.json" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>

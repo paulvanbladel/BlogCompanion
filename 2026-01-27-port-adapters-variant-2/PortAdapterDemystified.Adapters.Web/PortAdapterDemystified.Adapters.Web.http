@@ -1,0 +1,11 @@
+@host = http://localhost:5245
+
+POST {{host}}/api/premium/calculate
+Content-Type: application/json
+
+{
+  "variantCode": "A",
+  "basePremium": 1000
+}
+
+###
